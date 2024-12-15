@@ -39,12 +39,12 @@ The project implemented in a web application too to showcases outputs.
 **Part 1: Scarping & Crawling**
 
 Collect data(articles) to make a dataset. Beware of follow corresponding sites robots.txt or policy.  
-<br/><br/>
+<br/>
 
 **Part 2: Data Preparation**
 
 Cleans and preprocesses text data for further analysis to reduce noise.  
-<br/><br/>
+<br/>
 
 **Part 3: Clustering**
 
@@ -58,7 +58,7 @@ Categorize articles into meaningful clusters.
 - Finalize clusters using K-means clustering.
 
 **Output:** Cluster labels based on top keywords.  
-<br/><br/>
+<br/>
 
 **Part 4: Locality-Sensitive Hashing (LSH)**
 
@@ -71,7 +71,7 @@ Efficiently find and recommend similar articles within the same cluster.
 - Query LSH index with MinHash signatures of given article.
 
 **Output:** Return similar document.  
-<br/><br/>
+<br/>
 
 **Part 5: User Application**
 
@@ -83,7 +83,7 @@ Provide a user-friendly interface for visualizing trend and article recommendati
 - Recommendation Page:
     1. Input a URL to find similar articles.
     2. Display top recommendations with clickable links. 
-<br/><br/>
+<br/>
 
 **Part 6: Data Properties**
 
