@@ -37,12 +37,15 @@ The project implemented in a web application too to showcases outputs.
 ## Features
 
 **Part 1: Scarping & Crawling**
+
 Collect data(articles) to make a dataset. Beware of follow corresponding sites robot.txt or policy.
 
 **Part 2: Data Preparation**
+
 Cleans and preprocesses text data for further analysis to reduce noise.
 
 **Part 3: Clustering**
+
 Categorize articles into meaningful clusters.
 
 **Steps:**
@@ -55,6 +58,7 @@ Categorize articles into meaningful clusters.
 **Output:** Cluster labels based on top keywords.
 
 **Part 4: Locality-Sensitive Hashing (LSH)**
+
 Efficiently find and recommend similar articles within the same cluster.
 
 **Steps:**
@@ -66,6 +70,7 @@ Efficiently find and recommend similar articles within the same cluster.
 **Output:** Return similar document.
 
 **Part 5: User Application**
+
 Provide a user-friendly interface for visualizing trend and article recommendations.
 
 **Features:**
@@ -76,6 +81,7 @@ Provide a user-friendly interface for visualizing trend and article recommendati
     2. Display top recommendations with clickable links.
 
 **Part 6: Data Properties**
+
 Explore basic properties of the dataset.
 
 **Output:** Statistical summaries of the dataset.
