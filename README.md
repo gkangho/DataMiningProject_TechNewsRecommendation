@@ -10,9 +10,9 @@ The objective is to help users discover relevant articles based on patterns in t
 Especially for tech news, it is not easy to understand what's being explained right away just reading one article. So we often look for related articles. However, with so much information available online, it’s not always easy to find the most relevant content. Even if there is, news sites only provide articles limited to their site. We don't know if it's a recommendation for advertising or for commercial use.
 
 The Tech News Project aims to solve this problem by processing technology-related news articles by
-+ Analyzing trends over time to identify dominant and emerging themes.
-+ Categorizing articles into detailed subcategories like AI, quantum computing, and cybersecurity.
-+ Recommending related articles based on their content using efficient methods like Locality-Sensitive Hashing (LSH).
+- Analyzing trends over time to identify dominant and emerging themes.
+- Categorizing articles into detailed subcategories like AI, quantum computing, and cybersecurity.
+- Recommending related articles based on their content using efficient methods like Locality-Sensitive Hashing (LSH).
 The project implemented in a web application too to showcases outputs.
 
 ---
@@ -20,17 +20,17 @@ The project implemented in a web application too to showcases outputs.
 ## Setup and Prerequisites
 
 **1. Data Requirement:**
-+ Ensure the cleaned_combined_data.csv file is available. It should contain columns like Title, Content, Publication Date, URL, and Author.
+- Ensure the cleaned_combined_data.csv file is available. It should contain columns like Title, Content, Publication Date, URL, and Author.
   If you want to use other dataset, keep in mind that you have to modify our code or dataset to fit in this code.
 
 **2. Required Environment:**
-+ Use Python 3.12 or above.
-+ Install required libraries (listed in the Dependencies section).
+- Use Python 3.12 or above.
+- Install required libraries (listed in the Dependencies section).
   ```pip install pandas numpy matplotlib seaborn plotly scikit-learn datasketch dash jupyter-dash dash-bootstrap-components```
 
 **3. Run Instructions:**
-+ Execute the codes sequentially for trend analysis, clustering, and recommendations.
-+ Run the Dash web application using the provided script.
+- Execute the codes sequentially for trend analysis, clustering, and recommendations.
+- Run the Dash web application using the provided script.
   
 ---
 
